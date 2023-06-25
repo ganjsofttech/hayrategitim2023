@@ -1,0 +1,106 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans&subset=latin,latin-ext);
+
+body{
+  background-color: #FCECB8;
+  color: #000;
+  font-family: Open Sans, sans-serif;
+}
+
+.title{
+  color: #000;
+  font-family: arial;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.url{
+  color: #fff;
+  font-family: arial;
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:-webkit-any-link {
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.note{
+  color: #f00;
+  font-size: 18px;
+  text-align: start;
+  font-family: arial;
+  text-decoration: none;
+  margin: 5px;
+  display: inline-block;
+  padding: 15px 30px;
+  background-color: #000;
+  border-radius: 5px;
+}
+
+.btn{
+  text-decoration: none;
+  font-size: 19px;
+  margin: 5px;
+  display: inline-block;
+  padding: 15px 30px;
+}
+
+.btn1{
+  background-color: #38b6ff;
+  color: #000;
+  border-radius: 5px;
+  font-family: arial;
+  font-size: 24px;
+}
+
+.btn1:hover{
+  background-color: #000;
+  color: #38b6ff;
+}
+
+
+
+.footer {
+  background: #343a40;
+  height: 50px;
+  width: 100%;
+  position: absolute;
+  margin-bottom: 1;
+  left: 0;
+  align-items: center;
+  font-size: 16px;
+}
+
+.table{
+  align-content: center;
+  border-collapse: collapse;
+  padding: 0;
+}
+
+.table-title{
+  font-size: 16px;
+  font-weight: bold;
+  background-color: #fff;
+  align-items: center;
+  text-align: center;
+}
+
+.table-title-1{
+  font-size: 14px;
+  font-weight: bold;
+  background-color: #fff;
+  align-items: center;
+  text-align: center;
+}
+
+.table-tr{
+  font-size: 14px;
+  background-color: #eee;
+}
+
+.table-tr-2{
+  font-size: 14px;
+  background-color: #fff;
+}
